@@ -1,9 +1,5 @@
-import Comments from "./NestedComments/Comments";
-import LongPolling from "./Polling/LongPolling";
-import ShortPolling from "./Polling/ShortPolling";
-import ServerSentEvents from "./ServerSentEvents";
-import WebSocket from "./WebSocket";
+import LiveStream from "./LiveStream";
 
 export default function App() {
-  return <WebSocket />;
+  return <LiveStream />;
 }
