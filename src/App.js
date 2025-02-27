@@ -1,5 +1,5 @@
-import LiveStream from "./LiveStream";
+import TabFormComponent from "./TabForm";
 
 export default function App() {
-  return <LiveStream />;
+  return <TabFormComponent />;
 }
