@@ -1,5 +1,5 @@
-import TabFormComponent from "./TabForm";
+import ProgressBar from "./ProgressBar";
 
 export default function App() {
-  return <TabFormComponent />;
+  return <ProgressBar />;
 }
