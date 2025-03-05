@@ -1,5 +1,5 @@
-import ProgressBar from "./ProgressBar";
+import PollVoting from "./PollVoting";
 
 export default function App() {
-  return <ProgressBar />;
+  return <PollVoting />;
 }
