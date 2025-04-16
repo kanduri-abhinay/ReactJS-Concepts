@@ -20,14 +20,16 @@ function VoteChart({ votes }) {
               style={{
                 background: "green",
                 color: "white",
-                textAlign: "end",
+                textAlign: "start",
                 width: `${Math.floor((vote.count * 100) / total) || 0}%`,
                 borderRadius: "10px",
                 overflow: "hidden",
-                transition: "width 1s ease-in",
+                transition: "width 2s ease-in",
               }}
             >
-              {Math.floor((vote.count * 100) / total) || 0}%
+              <span style={{ paddingLeft: "10px" }}>
+                {Math.floor((vote.count * 100) / total) || 0}%
+              </span>
             </div>
           </div>
         </div>
