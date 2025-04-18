@@ -1,5 +1,5 @@
-import PollVoting from "./PollVoting";
+import OTP from "./OTP";
 
 export default function App() {
-  return <PollVoting />;
+  return <OTP />;
 }
