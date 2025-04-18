@@ -1,5 +1,5 @@
-import OTP from "./OTP";
+import Accordian from "./Accordian";
 
 export default function App() {
-  return <OTP />;
+  return <Accordian />;
 }
